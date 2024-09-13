@@ -1,5 +1,6 @@
 import React from "react";
 import fiveStarImage from "../../assets/images/illustration-five-stars.webp";
+import "./Banner.scss";
 
 const Banner = () => {
   return (
@@ -11,9 +12,9 @@ const Banner = () => {
       <img
         className="Banner__img"
         src={fiveStarImage}
-        alt="Social Media 10x Faster with AI"
+        alt="five star"
       />
-      <p>Over 4,000 5-star reviews</p>
+      <p className="Banner__text">Over 4,000 5-star reviews</p>
     </div>
   );
 };
