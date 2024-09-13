@@ -9,10 +9,22 @@
   border-radius: 5px;
   margin-bottom: 1rem;
 
+
+  @media screen and (min-width: 1000px) {
+    width: 50%;
+  }
+  
+  
+
   &__heading {
-    font-size: 2rem;
+    font-size: 2.8rem;
     text-align: center;
-    padding: 2rem 1.7rem 0 1.5rem;
+    padding: 2rem 3rem 0 3rem;
+
+    @media screen and (min-width: 1000px) {
+      font-size: 3.5rem;
+      padding: 3rem 3rem 0 3rem;
+    }
 
     &--color {
       color: $yellow500;
@@ -23,10 +35,10 @@
   }
 
   &__img {
-    width: 40%;
+    width: 55%;
   }
   &__text {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-bottom: 2rem;
     color: $purple100;
